@@ -1,19 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Poppins:wght@300;400;500;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     background-color: white;
-    background: url(./WhatsApp\ Image\ 2023-09-23\ at\ 12.02.30.jpg) ;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     background-position: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .heading h1 {
     color: white;
+    margin-bottom: 40px;
     align-items: center;
     justify-content: center;
     padding-top: 160px;
@@ -21,37 +23,51 @@ body{
 }
 .btn {
     color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: larger;
-    justify-content: center;
+    display: flex;
+    font-size: x-large;
+    justify-content: left;
     text-decoration: none;
     align-items: center;
-    padding-left: 900px;
-    padding-top: 100px;
+    border-radius: 40px;
+    padding : 18px;
+    margin-bottom: 60px;
 }
-
-.btn p{
-    opacity: 0.5;
+.hh {
+    background: linear-gradient(to bottom right,#3d97ce 0%,#12debb 100%);
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
-
+.cont {
+margin-left: 190px;
+}
+.btn img {
+margin-left: 140px;
+height: 60vh;
+}
 .btn h3{
-    color: #000;
+    color: white;
     list-style-type: none;
-    background: white;
-    border: 2px solid white;
+    background: #212432;
+    border: 2px solid #212432;
     text-align: center;
-    padding: 7px;
-    width: 90px;
-    font-size: medium;
+    padding: 10px;
+    width: 120px;
+    font-size: large;
     border-radius: 5px;
 }
 
 .btn h3 a{
     text-decoration: none;
-    color: black;
+    color: white;
+}
+
+.btn h3:hover{
+    background: rgb(141, 141, 141);
+    border: 2px solid rgb(141, 141, 141);
 }
 .container{
     display: flex;
+    background: white;
     justify-content: space-between;
     align-items: center;
     padding-top: 15px;
@@ -59,9 +75,8 @@ body{
 }
 .nav-logo{
     text-transform: capitalize;
-    color: white;
+    color: #212432;
     padding-left: 15px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: bold;
     font-size: x-large;
 }
@@ -69,6 +84,7 @@ body{
 .active{
     color: gray;
 }
+
 nav ul{
     list-style-type: none;
     display: flex;
@@ -83,9 +99,8 @@ nav ul li{
 
 nav ul li a{
     text-decoration: none;
-    color: white;
+    color: #212432;
     padding-top: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: x-large;
     transition: ease 0.175s;
 }
@@ -120,7 +135,6 @@ section li{
 section li a{
     text-decoration: none;
     color: black;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: x-large;
     transition: ease 0.175s;
 }
@@ -129,7 +143,6 @@ section li a:hover{
 }
 
 section h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 50px;
     padding: 15px;
     justify-content: center;
@@ -169,7 +182,6 @@ section ul li a{
     justify-content: center;
     color: white;
     padding-top: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: x-large;
     transition: ease 0.175s;
 }
@@ -178,16 +190,51 @@ section ul li a:hover{
 }
 
 .desc-container {
-    width: 80%;
-    margin: auto;
-    color: white;
-    padding-top: 80px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: x-large;
-    height: 1200px;
+    
+    height: 1450px;
 }
-
+.well {
+    width: 94%;
+    margin: auto;
+    color: #212432;
+    background: linear-gradient(130deg,#ece6f8 0%,#f9e7f6 100%);
+    padding: 50px;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.mission {
+    width: 94%;
+    margin: auto;
+    color: #212432;
+    background: #f0f4f6;
+    padding: 50px;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.offering {
+    width: 94%;
+    margin: auto;
+    color: #212432;
+    background: #d5f5fe;
+    padding: 50px;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+.contact {
+    width: 94%;
+    margin: auto;
+    color: #212432;
+    background: rgb(252, 218, 218);
+    padding: 50px;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
 .disclaimer{
     font-size: medium;
-    padding-bottom: 50px;
+    width: 95%;
+    margin: auto;
+    color: #212432;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
 }

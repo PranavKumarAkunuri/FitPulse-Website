@@ -38,8 +38,8 @@ console.log(weight.value);
     let BMR = calculateBMR(weight.value, height.value, Age.value, genderValue); 
 
     calories.innerHTML = BMR;
-    maintain.innerText = BMR;
-    gainw.innerText = BMR;
-    losew.innerText = BMR;
+    maintain.innerText = BMR + 600;
+    gainw.innerText = BMR + 900;
+    losew.innerText = BMR + 300;
 
 }
