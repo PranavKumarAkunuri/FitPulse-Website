@@ -1,2 +1,2 @@
 # FitPulse-Website
-THis is A projecrt regarding a Fitness & Sports Website For Smart India Hackethon(SIH)
+THis is A project regarding a Fitness & Sports Website For Smart India Hackathon(SIH)
